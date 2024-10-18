@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8dbdeb;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: #0074b4;
+    text-align: center;
+}
+
+h2 { 
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
+
+p{
+   
+    margin: 1%;
+    padding: 1%x;
+
+}
+
+.content {
+    background-color: #8dbdeb;
+    background-size: 50%;
+}
+
+.parallax1 {
+    background-image: url(https://img.freepik.com/fotos-gratis/medico-preparando-uma-vacina-covid-19_23-2148920204.jpg?uid=R100539207&ga=GA1.1.831078524.1728589567&semt=ais_hybrid);
+}
+
+.parallax2 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/06/20/35/vaccination-2722937_640.jpg);
+
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/06/20/35/vaccination-2722937_1280.jpg);
+}
+
+.parallax3 {
+    background-image: url(https://cdn.pixabay.com/photo/2021/04/10/00/51/vaccine-6165772_1280.jpg);
+}
+
+.parallax {
+    height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-color: #0074b4;
+    text-align: center;
+    padding: 1%;
+}
+@media (max-width: 768px) {
+   
+    
+
+    .main-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 20;
+        position: absolute;
+        left: 0;
+    }
+
+    main .column,
+    img {
+
+        margin: 0;
+        margin-bottom: 10px;
+        width: 100%;
+
+    }
+}
